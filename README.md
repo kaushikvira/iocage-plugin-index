@@ -70,7 +70,7 @@ Install a plugin from the internet:
 iocage fetch \
   -P gitea \
   -g https://github.com/kaushikvira/iocage-plugin-index/iocage-plugin-index \
-  ip4_addr="$interface|$ipaddress"
+  dhcp on"
 ```
 
 where `$interface` is the name of the active network interface and `$ipaddress`
