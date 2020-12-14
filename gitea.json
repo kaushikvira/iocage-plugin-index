@@ -1,8 +1,8 @@
 {
   "name": "Gitea",
   "plugin_schema": "2",
-  "release": "11.3-RELEASE",
-  "artifact": "https://github.com/fnichol/iocage-plugin-gitea.git",
+  "release": "12.1-RELEASE-p12",
+  "artifact": "https://github.com/kaushikvira/iocage-plugin-index.git",
   "pkgs": ["shells/bash", "www/nginx", "www/gitea"],
   "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64/latest",
   "fingerprints": {

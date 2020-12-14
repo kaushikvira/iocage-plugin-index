@@ -46,7 +46,7 @@ plugins.
 For more detailed information on creating a plugin, see [Create a Plugin][].
 
 [create a plugin]:
-  https://www.ixsystems.com/documentation/freenas/11.3-RELEASE/plugins.html#create-a-plugin
+  https://www.ixsystems.com/documentation/freenas/12.1-RELEASE-p12/plugins.html#create-a-plugin
 
 ## Installing Plugins
 
@@ -69,7 +69,7 @@ Install a plugin from the internet:
 ```sh
 iocage fetch \
   -P gitea \
-  -g https://github.com/fnichol/iocage-plugin-index \
+  -g https://github.com/kaushikvira/iocage-plugin-index/iocage-plugin-index \
   ip4_addr="$interface|$ipaddress"
 ```
 
@@ -125,8 +125,8 @@ liked plugin projects contain their own respective licenses.
   https://api.cirrus-ci.com/github/fnichol/iocage-plugin-index.svg
 [ci]: https://cirrus-ci.com/github/fnichol/iocage-plugin-index
 [code-of-conduct]:
-  https://github.com/fnichol/iocage-plugin-index/blob/master/CODE_OF_CONDUCT.md
-[fnichol]: https://github.com/fnichol
-[issues]: https://github.com/fnichol/iocage-plugin-index/issues
+  https://github.com/kaushikvira/iocage-plugin-index/iocage-plugin-index/blob/master/CODE_OF_CONDUCT.md
+[fnichol]: https://github.com/kaushikvira/iocage-plugin-index
+[issues]: https://github.com/kaushikvira/iocage-plugin-index/iocage-plugin-index/issues
 [license]:
-  https://github.com/fnichol/iocage-plugin-index/blob/master/LICENSE.txt
+  https://github.com/kaushikvira/iocage-plugin-index/iocage-plugin-index/blob/master/LICENSE.txt
